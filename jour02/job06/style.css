@@ -1,0 +1,25 @@
+body {
+    min-height: 4096px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #00ff00;
+}
+
+/* Stylisation spécifique au code Konami */
+.konami {
+    background-color: #5804ff;
+    color: #F8E6E6;
+}
+
+.konami #content {
+    text-align: center;
+}
+
+.konami #konamiButton {
+    display: none;
+}
