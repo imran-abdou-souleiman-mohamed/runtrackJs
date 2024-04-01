@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Tri</title>
+</head>
+<body>
+    <form id="sortingForm">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id"><br><br>
+
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom"><br><br>
+
+        <label for="type">Type:</label>
+        <select id="type" name="type">
+            <option value="">-- Sélectionner un type --</option>
+        </select><br><br>
+
+        <input type="button" value="Filtrer" id="filterButton">
+    </form>
+    <div id="filteredResults"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
