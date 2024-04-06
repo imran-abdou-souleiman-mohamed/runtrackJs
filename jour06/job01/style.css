@@ -1,6 +1,11 @@
 body {
   background-color: gray;
 }
+.lol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 [class*="col"] {
   color: aqua;
@@ -21,4 +26,7 @@ button{
 
 .col1{
   background-color: blue;
+}
+.col-2{
+  color: black;
 }
