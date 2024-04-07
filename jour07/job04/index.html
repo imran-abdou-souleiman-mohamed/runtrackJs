@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jour07</title>
+    <!-- inclusio du cdn de materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- inclusion de licone material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <header class="blue darken-3 white-text valign-wrapper">
+        <nav class="container">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Recherche</a></li>
+              </ul>
+          </nav>
+    </header>
+    
+    <section>
+        <h2 class="center-align">Créer un compte</h2>
+        <form action="traitemet.html" method="post" class="container">
+            <div>
+                <label>Civilité :</label><br>
+                <p>
+                    <label>
+                        <input class="with-gap" name="civilite" type="radio" value="Monsieur"/>
+                        <span>Monsieur</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="civilite" type="radio" value="Madame"/>
+                        <span>Madame</span>
+                    </label>
+                </p>
+            </div><br>
+
+            <div class="input-field">
+                <i class="material-icons prefix">person</i>
+                <label for="prenom">Prénom :</label><br>
+                <input type="text" id="prenom" name="prenom">
+            </div><br>
+            <div class="input-field">
+                <i class="material-icons prefix">person</i>
+                <label for="nom">Nom :</label><br>
+                <input type="text" name="nom" id="nom">
+            </div><br>
+            <div class="input-field">
+                <i class="material-icons prefix">location_on</i>
+                <label for="adresse">Adresse :</label><br>
+                <input type="text" name="adresse" id="adresse">
+            </div><br>
+            <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <label for="email">Adresse Email :</label><br>
+                <input type="email" name="email" id="email">
+            </div><br>
+            <div class="input-field">
+                <i class="material-icons prefix">lock</i>
+                <label for="password">Mot de passe :</label><br>
+                <input type="password" id="password" name="password">
+            </div><br>
+            <div class="input-field">
+                <i class="material-icons prefix">lock</i>
+                <label for="confirm_password">Confirmer le Mot de passe :</label><br>
+                <input type="password" name="confirm_password" id="confirm_password">
+            </div><br>
+            <div class="container">
+                <form>
+                    <div class="input-field">
+                        <label for="passions">Passions :</label><br>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="passions[]" id="informatique" value="informatique"/>
+                                <span>Informatique</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="passions[]" id="voyages" value="voyages"/>
+                                <span>Voyages</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="passions[]" id="sport" value="Sport"/>
+                                <span>Sport</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="passions[]" id="lecture" value="Lecture"/>
+                                <span>Lecture</span>
+                            </label>
+                        </p>
+                    </div><br>
+             <button type="submit" class="btn">Valider</button>
+        </form>
+
+    </section>
+      <footer class="blue darken-3 white-text center-align">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Recherche</a></li>
+            </ul>
+        </div>
+      </footer>
+      <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
